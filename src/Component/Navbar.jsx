@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Button, Layout, Typography, Space, Avatar, Menu } from "antd";
+import { Button,  Typography,  Avatar, Menu } from "antd";
 import { Link } from "react-router-dom";
 import {
   HomeOutlined,
-  MoneyCollectOutlined,
   BulbOutlined,
   FundOutlined,
   MenuOutlined,

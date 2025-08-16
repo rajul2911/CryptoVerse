@@ -4,7 +4,6 @@ import moment from 'moment';
 import { useGetCryptoNewsQuery } from '../Services/cryptoNewsApi';
 
 const { Text, Title } = Typography;
-const { Option } = Select;
 
 function News({ simplified }) {
   const { data: cryptoNews, isLoading, error } = useGetCryptoNewsQuery({
