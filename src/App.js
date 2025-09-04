@@ -32,7 +32,7 @@ function App() {
           level={5}
           style={{ color: "white", textAlign: "center" }}
         >
-          <Typography.Title>
+          <Typography.Title level={5} style={{ color: "white", textAlign: "center" }}>
             Cryptoverse <br />
             All Rights Reserved
           </Typography.Title>
